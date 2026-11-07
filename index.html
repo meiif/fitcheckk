@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#fitcheck</title>
+    <meta
+      name="description"
+      content="#fitcheck — Your starting point. Your goals. Your progress. Your FIT CHECK."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-glow glow-1"></div>
+    <div class="page-glow glow-2"></div>
+    <div class="page-glow glow-3"></div>
+
+    <header class="topbar">
+      <div class="brand-wrap">
+        <div class="brand-logo">#</div>
+        <div>
+          <p class="brand-kicker">FIT CHECK</p>
+          <h1>fitcheck</h1>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <a href="#starting-point">Start</a>
+        <a href="#fit-check">Fit Check</a>
+        <a href="#plan">Plan</a>
+        <a href="#meals">Meals</a>
+        <a href="#journal">Journal</a>
+      </nav>
+
+      <button class="pill-button">Log today</button>
+    </header>
+
+    <main class="container">
+      <section class="hero panel">
+        <div class="hero-copy">
+          <p class="eyebrow">YOUR STARTING POINT • YOUR GOALS • YOUR PROGRESS</p>
+          <h2>
+            Build your <span>fitness journey</span> one FIT CHECK at a time.
+          </h2>
+          <p class="hero-text">
+            Personalised goals, weekly comparisons, workouts, meal ideas and daily
+            habits all in one colourful space designed for real progress.
+          </p>
+
+          <div class="hero-actions">
+            <button class="primary-button">Start your fit check</button>
+            <button class="secondary-button">View dashboard</button>
+          </div>
+
+          <div class="mini-metrics">
+            <div class="metric-box">
+              <span class="metric-value">12</span>
+              <span class="metric-label">weekly goals</span>
+            </div>
+            <div class="metric-box">
+              <span class="metric-value">4.8</span>
+              <span class="metric-label">habit streak</span>
+            </div>
+            <div class="metric-box">
+              <span class="metric-value">86%</span>
+              <span class="metric-label">progress</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="dashboard-card card-floating">
+            <div class="card-header">
+              <span>STARTING POINT</span>
+              <span class="tiny-pill">LIVE</span>
+            </div>
+            <div class="measure-row">
+              <div>
+                <small>Weight</small>
+                <strong>76kg</strong>
+              </div>
+              <div>
+                <small>Waist</small>
+                <strong>82cm</strong>
+              </div>
+            </div>
+            <div class="sparkline">
+              <span style="--h: 30%"></span>
+              <span style="--h: 52%"></span>
+              <span style="--h: 46%"></span>
+              <span style="--h: 70%"></span>
+              <span style="--h: 60%"></span>
+              <span style="--h: 87%"></span>
+              <span style="--h: 98%"></span>
+            </div>
+            <div class="goal-pill-wrap">
+              <span class="goal-pill pink">Strength</span>
+              <span class="goal-pill blue">Mobility</span>
+              <span class="goal-pill lime">Stamina</span>
+            </div>
+          </div>
+
+          <div class="sticker sticker-star">★</div>
+          <div class="sticker sticker-spark">✦</div>
+        </div>
+      </section>
+
+      <section id="starting-point" class="two-col-layout">
+        <div class="panel form-panel">
+          <div class="section-head">
+            <p class="eyebrow">ONBOARDING</p>
+            <h3>Your starting point</h3>
+          </div>
+
+          <form class="starting-form">
+            <div class="field-grid">
+              <label>
+                Preferred name
+                <input type="text" value="Sam" />
+              </label>
+              <label>
+                Age
+                <input type="text" value="28" />
+              </label>
+              <label>
+                Height
+                <input type="text" value="170 cm" />
+              </label>
+              <label>
+                Weight
+                <input type="text" value="76 kg" />
+              </label>
+              <label>
+                Hip measurement
+                <input type="text" value="100 cm" />
+              </label>
+              <label>
+                Waist measurement
+                <input type="text" value="82 cm" />
+              </label>
+            </div>
+
+            <div class="goal-checks">
+              <p>Choose your goals</p>
+              <div class="checkbox-row">
+                <label><input type="checkbox" checked /> Strength</label>
+                <label><input type="checkbox" checked /> Stamina</label>
+                <label><input type="checkbox" /> Flexibility</label>
+                <label><input type="checkbox" checked /> Consistency</label>
+              </div>
+            </div>
+
+            <button class="primary-button full-width">Save my profile</button>
+          </form>
+        </div>
+
+        <div class="panel stats-panel">
+          <div class="section-head">
+            <p class="eyebrow">FIT CHECK</p>
+            <h3>Goal tracker</h3>
+          </div>
+
+          <div class="goal-list">
+            <div class="goal-card">
+              <div class="goal-topline">
+                <span class="goal-label pink">Target weight</span>
+                <span>68% complete</span>
+              </div>
+              <div class="progress-line"><span style="width: 68%"></span></div>
+              <small>76kg → 70kg</small>
+            </div>
+
+            <div class="goal-card">
+              <div class="goal-topline">
+                <span class="goal-label blue">Strength</span>
+                <span>82% complete</span>
+              </div>
+              <div class="progress-line"><span style="width: 82%"></span></div>
+              <small>3 workouts / week</small>
+            </div>
+
+            <div class="goal-card">
+              <div class="goal-topline">
+                <span class="goal-label lime">Stamina</span>
+                <span>74% complete</span>
+              </div>
+              <div class="progress-line"><span style="width: 74%"></span></div>
+              <small>12 min cardio boost</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="fit-check" class="panel comparison-panel">
+        <div class="section-head split-head">
+          <div>
+            <p class="eyebrow">WEEKLY COMPARISONS</p>
+            <h3>Progress over time</h3>
+          </div>
+          <div class="toggle-group">
+            <button class="toggle active">Weekly</button>
+            <button class="toggle">Monthly</button>
+            <button class="toggle">6-Month</button>
+          </div>
+        </div>
+
+        <div class="comparison-grid">
+          <div class="big-chart">
+            <div class="chart-bars">
+              <div class="bar-group">
+                <span class="bar" style="--size: 42%"></span>
+                <label>Jan</label>
+              </div>
+              <div class="bar-group">
+                <span class="bar" style="--size: 48%"></span>
+                <label>Feb</label>
+              </div>
+              <div class="bar-group">
+                <span class="bar" style="--size: 56%"></span>
+                <label>Mar</label>
+              </div>
+              <div class="bar-group">
+                <span class="bar" style="--size: 64%"></span>
+                <label>Apr</label>
+              </div>
+              <div class="bar-group">
+                <span class="bar" style="--size: 72%"></span>
+                <label>May</label>
+              </div>
+              <div class="bar-group">
+                <span class="bar" style="--size: 88%"></span>
+                <label>Jun</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="stats-boxes">
+            <div class="mini-stat">
+              <span>Weight</span>
+              <strong>-2.4 kg</strong>
+            </div>
+            <div class="mini-stat">
+              <span>Waist</span>
+              <strong>-4 cm</strong>
+            </div>
+            <div class="mini-stat">
+              <span>Workouts</span>
+              <strong>18 / 21</strong>
+            </div>
+            <div class="mini-stat highlight">
+              <span>Consistency</span>
+              <strong>+12%</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="plan" class="two-col-layout wide-layout">
+        <div class="panel workout-panel">
+          <div class="section-head">
+            <p class="eyebrow">PERSONALI WORKOUT PLAN</p>
+            <h3>Weekly planner</h3>
+          </div>
+
+          <div class="week-grid">
+            <div class="day-card done">
+              <span class="day-name">Mon</span>
+              <strong>Upper Body</strong>
+              <small>4 sets • 8 reps</small>
+            </div>
+            <div class="day-card done">
+              <span class="day-name">Tue</span>
+              <strong>Cardio Burst</strong>
+              <small>25 min</small>
+            </div>
+            <div class="day-card active">
+              <span class="day-name">Wed</span>
+              <strong>Mobility Flow</strong>
+              <small>18 min</small>
+            </div>
+            <div class="day-card">
+              <span class="day-name">Thu</span>
+              <strong>Lower Body</strong>
+              <small>5 exercises</small>
+            </div>
+            <div class="day-card">
+              <span class="day-name">Fri</span>
+              <strong>Core + HIIT</strong>
+              <small>20 min</small>
+            </div>
+            <div class="day-card">
+              <span class="day-name">Sat</span>
+              <strong>Long Walk</strong>
+              <small>30 min</small>
+            </div>
+            <div class="day-card rest">
+              <span class="day-name">Sun</span>
+              <strong>Recovery</strong>
+              <small>Rest day</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel exercise-panel">
+          <div class="section-head">
+            <p class="eyebrow">EXERCISE LIBRARY</p>
+            <h3>Popular moves</h3>
+          </div>
+
+          <ul class="exercise-list">
+            <li>
+              <div>
+                <strong>Bench Press</strong>
+                <small>Upper body • Strength</small>
+              </div>
+              <span class="badge">4/5</span>
+            </li>
+            <li>
+              <div>
+                <strong>Air Squat</strong>
+                <small>Lower body • Beginner</small>
+              </div>
+              <span class="badge">3/5</span>
+            </li>
+            <li>
+              <div>
+                <strong>Dead Bug</strong>
+                <small>Core • Stability</small>
+              </div>
+              <span class="badge">2/5</span>
+            </li>
+            <li>
+              <div>
+                <strong>Standing Hip Flexor Stretch</strong>
+                <small>Mobility • Recovery</small>
+              </div>
+              <span class="badge">1/5</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="meals" class="meal-panel panel">
+        <div class="section-head split-head">
+          <div>
+            <p class="eyebrow">MEAL PLANNING</p>
+            <h3>Balanced meals & recipe inspiration</h3>
+          </div>
+          <button class="pill-button">Build weekly plan</button>
+        </div>
+
+        <div class="meal-grid">
+          <article class="meal-card">
+            <div class="meal-tag">Breakfast</div>
+            <h4>Berry Yogurt Bowl</h4>
+            <p>Greek yogurt, berries, oats, chia and a drizzle of honey.</p>
+          </article>
+          <article class="meal-card">
+            <div class="meal-tag alt">Lunch</div>
+            <h4>Chicken Rice Bowl</h4>
+            <p>Grilled chicken, rice, greens, edamame and a tangy dressing.</p>
+          </article>
+          <article class="meal-card">
+            <div class="meal-tag pink">Dinner</div>
+            <h4>Lean Salmon Plate</h4>
+            <p>Salmon with sweet potato, greens and a lemon herb finish.</p>
+          </article>
+          <article class="meal-card">
+            <div class="meal-tag blue">Snack</div>
+            <h4>Protein Smoothie</h4>
+            <p>Banana, protein powder, spinach, almond milk and peanut butter.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="journal" class="bottom-grid">
+        <div class="panel habits-panel">
+          <div class="section-head">
+            <p class="eyebrow">DAILY HABITS</p>
+            <h3>Consistency checklist</h3>
+          </div>
+
+          <div class="habit-list">
+            <label><input type="checkbox" checked /> Complete today’s movement</label>
+            <label><input type="checkbox" checked /> Drink water</label>
+            <label><input type="checkbox" /> Stretch and recover</label>
+            <label><input type="checkbox" checked /> Eat balanced meals</label>
+          </div>
+        </div>
+
+        <div class="panel water-panel">
+          <div class="section-head">
+            <p class="eyebrow">WATER TRACKER</p>
+            <h3>Daily hydration</h3>
+          </div>
+
+          <div class="water-visual">
+            <div class="bottle">
+              <div class="water-fill"></div>
+            </div>
+            <div class="water-copy">
+              <strong>1.9L / 2.5L</strong>
+              <span>76% complete</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>#fitcheck — Your starting point. Your goals. Your progress. Your FIT CHECK.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
